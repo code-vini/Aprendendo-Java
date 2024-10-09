@@ -27,7 +27,7 @@ public class Main {
         Trabalhando estrutura de decisão, é comparar algum valor, 
         usando operadores de comparação:
         ==, >=, <=, !=, >, <
-        &&, ||, !nomeDaVariavel
+        &&, ||, !nomeDaVariavel.
     */
         int numero1 = 10;
         int numero2 = 10;
@@ -39,6 +39,39 @@ public class Main {
         } else {
             System.out.println("Número 2 é maior que o número 1");
         }
+        //9, de Outubro de 2024 - Estruturas d repetição: for, while e do-while
+        //For:
+        for (int i = 0; i < 10; i++) {
+            System.out.println("Contagem: " + i);
+        }
+        //While:
+        int ipp = 0;
+        while (ipp < 10) {
+            System.out.println("Contagem: " + ipp); 
+            ipp++;
+        //Do-While
+        int kkk = 0;
+        do {
+            System.out.println("Contagem: " + kkk);
+                kkk++;
+            } while (kkk < 10);
+            
+        }
+        //9, de Outubro de 2024 - Introdução a métodos e funções.
+        /*  public static void main(String[] args) {
+        // Chamando o método
+        saudacao();
     }
+
+        // Definição do método
+        public static void saudacao() {
+        System.out.println("Olá, mundo!");
+    }
+}
+ */       
+      
+         
+    }
+    
 
 }
