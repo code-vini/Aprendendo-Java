@@ -1,2 +1,2 @@
-# aprendevini
-Aprendendo Java com Cubos Academy
+# Curso de Java
+Aprendendo Java do Zero
