@@ -1,20 +1,27 @@
-import java.util.ArrayList;
-
 public class AplicandoNaPratica {
-      public static void AplicandoNaPratica(String[] args) {
-            // Trabalhando com Arrays
-            int[] array = {1, 2, 3, 4, 5};
-            for (int i = 0; i < array.length; i++) {
-                System.out.println("Array elemento: " + array[i]);
-            }
-    
-            // Trabalhando com ArrayList
-            ArrayList<Integer> lista = new ArrayList<>();
-            lista.add(1);
-            lista.add(2);
-            lista.add(3);
-            for (int numero : lista) {
-                System.out.println("ArrayList elemento: " + numero);
-            }
-        }
-}
+      public static void main(String[] args) {
+          // Declaração e Inicialização
+          int[][][] matriz = new int[2][2][2];
+  
+          // Atribuindo valores
+          int valor = 1;
+          for (int i = 0; i < matriz.length; i++) {
+              for (int j = 0; j < matriz[i].length; j++) {
+                  for (int k = 0; k < matriz[i][j].length; k++) {
+                      matriz[i][j][k] = valor;
+                      valor++;
+                  }
+              }
+          }
+  
+          // Exibindo valores
+          for (int i = 0; i < matriz.length; i++) {
+              for (int j = 0; j < matriz[i].length; j++) {
+                  for (int k = 0; k < matriz[i][j].length; k++) {
+                      System.out.print(matriz[i][j][k] + " ");
+                  }
+                  System.out.println();
+              }
+          }
+      }
+  }  
