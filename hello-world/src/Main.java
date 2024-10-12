@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 public class Main {
     public static void main(String[] args) {
     //07, de Outubro de 2024 - Aula de variaveis(tipo de dado texto)se constantes:
@@ -70,8 +71,26 @@ public class Main {
 }
  */       
       
-         
+         //Declaração e inicialização de Arrays:
+        int[] numeroz = new int[5];  // Declaração de um array de inteiros com 5 elementos
+numeroz[0] = 1;              // Atribui o valor 1 ao primeiro elemento do array
+
+        // Outra maneira de inicializar um array
+        int[] outrosNumeros = {1, 2, 3, 4, 5};
+
+
+        // Acessando Elementos no Array:
+        int primeiroNumero = numeroz[0];  // Acessa o primeiro elemento do array
+        System.out.println(primeiroNumero);
+        //Percorrendo um Array:
+        for (int iii = 0; iii < numeroz.length; iii++) {
+            System.out.println(numeroz[iii]);
+        }
+        
+        
+
+
     }
-    
+        
 
 }
