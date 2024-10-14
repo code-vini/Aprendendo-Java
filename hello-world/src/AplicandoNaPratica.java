@@ -23,5 +23,33 @@ public class AplicandoNaPratica {
                   System.out.println();
               }
           }
+          String saudacao = "Olá, mundo!";
+
+          // Concatenação de strings
+          String parte1 = "Olá, ";
+          String parte2 = "Java!";
+          String saudacaoFinal = parte1 + parte2;
+  
+          // Métodos úteis
+          int comprimento = saudacao.length();
+          char letra = saudacao.charAt(1);
+          String mundo = saudacao.substring(5, 10);
+          boolean contem = saudacao.contains("mundo");
+          String novaSaudacao = saudacao.replace('m', 'M');
+          String maiusculas = saudacao.toUpperCase();
+          String minusculas = saudacao.toLowerCase();
+  
+          // Exibindo resultados
+          System.out.println("Saudação: " + saudacao);
+          System.out.println("Saudação final: " + saudacaoFinal);
+          System.out.println("Comprimento: " + comprimento);
+          System.out.println("Letra na posição 1: " + letra);
+          System.out.println("Substring: " + mundo);
+          System.out.println("Contém 'mundo'? " + contem);
+          System.out.println("Saudação com 'M': " + novaSaudacao);
+          System.out.println("Maiúsculas: " + maiusculas);
+          System.out.println("Minúsculas: " + minusculas);
+      
+
       }
   }  
